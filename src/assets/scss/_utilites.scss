@@ -1,0 +1,239 @@
+@use "./variables" as *;
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 1rem;
+}
+
+.ml-3 {
+  margin-left: 1.5rem;
+}
+
+.ml-4 {
+  margin-left: 2rem;
+}
+
+.ml-5 {
+  margin-left: 3rem;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 1rem;
+}
+
+.mr-3 {
+  margin-right: 1.5rem;
+}
+
+.mr-4 {
+  margin-right: 2rem;
+}
+
+.mr-5 {
+  margin-right: 3rem;
+}
+.mb-6 {
+  margin-bottom: 22px;
+}
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pl-1 {
+  padding-left: 0.5rem;
+}
+
+.pl-2 {
+  padding-left: 1rem;
+}
+
+.pl-3 {
+  padding-left: 1.5rem;
+}
+
+.pl-4 {
+  padding-left: 2rem !important;
+}
+
+.pl-5 {
+  padding-left: 3rem;
+}
+
+.pr-1 {
+  padding-right: 0.5rem;
+}
+
+.pr-2 {
+  padding-right: 1rem;
+}
+
+.pr-3 {
+  padding-right: 1.5rem;
+}
+
+.pr-4 {
+  padding-right: 2rem;
+}
+
+.pr-5 {
+  padding-right: 3rem;
+}
+
+.pt-5 {
+  padding-top: 3rem;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mt-10 {
+  margin-top: 40px;
+}
+
+.custom_mr_bottom {
+  margin-bottom: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0px;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.nav-link {
+  &:hover {
+    color: #232323;
+  }
+
+  &:focus {
+    color: #232323;
+  }
+}
+
+a:hover {
+  color: blue;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.error {
+  color: #cb007b;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.text_left {
+  text-align: left;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-capitlize {
+  text-transform: capitalize;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.imgSize {
+  object-fit: contain !important;
+}
+
+.custom_mrg_btm {
+  margin-bottom: 38px !important;
+}
+
+.font-weight-bold {
+  font-weight: 600;
+}
+
+em {
+  font-style: normal;
+}
+
+.disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.flex-case {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.clrBlue {
+  color: #2a7de1;
+}
+
+.clrPink {
+  color: #cb007b;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.white_text {
+  color: #fff !important;
+}
+
+.mt-12 {
+  margin-top: 50px;
+}
+

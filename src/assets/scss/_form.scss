@@ -1,0 +1,67 @@
+@use "./variables" as *;
+
+.custom_lable {
+  font-size: 14px;
+  font-family: $font-regular;
+  color: $color-primary;
+  margin-bottom: 6px;
+}
+
+.custom_input {
+  border: 1px solid #dce3ec;
+  color: $color-primary;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.customLink {
+   font-size: 12px;
+  font-family: $font-regular;
+  color: #2a7de1;
+  background-color: transparent;
+}
+
+.dont-account {
+  font-size: 1.3rem;
+  font-family: $font-regular;
+  color: $color-primary;
+}
+
+.img_eye_icon {
+  position: absolute;
+  top: 8px;
+  height: 25px;
+}
+
+.country_select {
+  background: transparent;
+  height: 100%;
+  border: 0px;
+  width: 62px;
+  padding: 1px 0px 1px 17px;
+  border-right: 1px solid #979fac;
+  border-radius: 0px;
+  appearance: none;
+  color: #002d74;
+
+  &:focus-visible {
+    outline: none !important;
+  }
+}
+
+.custom_input_padding_right {
+  padding: 10px 20px 10px 75px !important;
+}
+
+.custom_select {
+  padding: 14px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 1px;
+  background: transparent;
+  &:focus-visible {
+    outline: none !important;
+  }
+}

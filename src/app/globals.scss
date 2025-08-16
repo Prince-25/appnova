@@ -1,0 +1,71 @@
+
+
+/* // Variables */
+// @use "../assets/scss/variables";
+
+
+@use "bootstrap/scss/bootstrap" as *;
+
+
+/* // Layout */
+@use "../assets/scss/layout";
+
+/* // Base */
+@use "../assets/scss/base";
+
+/* // Fonts */
+@use "../assets/scss/fonts";
+
+/* // Typography */
+@use "../assets/scss/typography";
+
+/* // Onboarding */
+@use "../assets/scss/onboarding/onboarding";
+
+/* // Dashboard */
+@use "../assets/scss/components/dashboard";
+
+/* // Utilites */
+@use "../assets/scss/utilites";
+
+/* // Form */
+@use "../assets/scss/form";
+
+/* // Buttons */
+@use "../assets/scss/btn";
+
+/* // Mixin */
+@use "../assets/scss/mixin";
+
+/* // Checkbox */
+@use "../assets/scss/checkbox";
+
+
+/* // Header */
+@use "../assets/scss/components/header";
+
+/* // footer */
+@use "../assets/scss/components/footer";
+
+/* // profile */
+@use "../assets/scss/components/profile";
+
+// about
+
+@use "../assets/scss/components/about";
+
+/* // Spinner */
+@use "../assets/scss/spinner";
+
+
+
+
+//  .swiper-slide::after {
+//     background-color: rgba(18, 24, 32, .8);
+//     width: 100%;
+//     height: 100%;
+//     position: absolute;
+//     z-index: 0;
+//     top: 0;
+//     left: 0;
+// }

@@ -1,0 +1,14 @@
+@use "./variables" as *;
+
+html {
+    font-size: 62.5%;
+    @media screen and (max-width: 1600px) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #f3f3f3;
+    font-family: $font-regular;
+}

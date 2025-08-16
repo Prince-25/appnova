@@ -1,0 +1,157 @@
+.checkbox-group {
+  .checkbox_input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+}
+
+.checkbox-group label {
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox-group label:before {
+  content: '';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid #DCE3EC;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.checkbox_input:checked+label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  width: 5px;
+  height: 11px;
+  border: solid #002D74;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+// circle radio button
+.confirmation-method {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+
+  .radio-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid transparent;
+
+    input[type='radio'] {
+      display: none;
+    }
+
+    .custom-radio {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid #002d74;
+      margin-right: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      transition: background-color 0.3s ease;
+
+      &::after {
+        content: '✔';
+        font-size: 12px;
+        color: white;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+      }
+    }
+
+    &.active {
+      background-color: transparent;
+
+      .custom-radio {
+        background-color: #002d74;
+
+        &::after {
+          opacity: 1;
+        }
+      }
+
+      .radio-text b {
+        font-weight: 600;
+        color: #002d74;
+      }
+    }
+
+    .radio-text {
+      font-size: 15px;
+      color: #002d74;
+    }
+  }
+}
+
+
+.confirmation-method {
+  .radio-wrapper {
+    .custom-radio {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1px solid #002D74;
+      margin-right: 12px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      transition: background-color 0.3s ease;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 5px;
+        height: 10px;
+        border: solid #002D74;
+        top: 3px;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+        opacity: 0;
+        transition: opacity 0.2s ease;
+      }
+    }
+
+    &.active {
+      .custom-radio {
+        background-color: #C2D5ED;
+        border: 1px solid #C2D5ED;
+
+        &::after {
+          opacity: 1;
+          //  background-color: #002D74;
+        }
+      }
+
+      .radio-text b {
+        font-weight: 600;
+        color: #002d74;
+      }
+    }
+  }
+}

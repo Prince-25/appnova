@@ -1,0 +1,215 @@
+.appnova-banner-sm {
+  height: 450px;
+  position: relative;
+  padding-top: 220px;
+  padding-bottom: 120px;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f9fafb;
+}
+
+.appnova-banner-sm .appnova-background-image {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  opacity: 0.05;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.appnova-deco {
+  top: 47%;
+  right: 10%;
+  transform: rotate(90deg);
+  background-image: url("../../images/deco-2.svg");
+  z-index: 1;
+  width: 220px;
+  height: 140px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.appnova-banner-sm .appnova-banner-content {
+  width: 100%;
+  position: relative;
+}
+
+.appnova-breadcrumbs li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.appnova-breadcrumbs li a {
+  color: #121820;
+  -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.appnova-breadcrumbs li:after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #007dbf;
+  margin: 0 15px;
+}
+
+.appnova-breadcrumbs li:last-child {
+  cursor: not-allowed;
+}
+
+.appnova-breadcrumbs li:last-child a {
+  pointer-events: none;
+  color: rgba(18, 24, 32, 0.5);
+}
+
+.appnova-about-heading {
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #121820;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+/// our mission
+.appnova-deep-bg {
+  background-color:#fff;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.appnova-top-deco {
+  top: 0;
+  right: 25%;
+  background-image: url(../../images/deco-2.svg);
+  z-index: -1;
+  width: 220px;
+  height: 140px;
+}
+
+.appnova-mb-60 {
+  margin-bottom: 60px;
+}
+
+.appnova-circle-illustration {
+  margin-top: 60px;
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.appnova-circle-illustration .appnova-circle-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #007dbf;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.appnova-circle-illustration .appnova-image-frame {
+  width: 100%;
+  height: calc(100% + 60px);
+  position: absolute;
+  top: -60px;
+  left: 0;
+  border-radius: 0 0 47% 47%;
+  overflow: hidden;
+}
+
+.appnova-circle-illustration .appnova-image-frame img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
+  height: calc(100% + 60px);
+}
+
+.mil-suptitle-2 {
+  font-size: 16px;
+  position: relative;
+  padding-left: 15px;
+  color: #121820;
+  font-weight: 500;
+
+  &:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    border-radius: 50%;
+    background-color: #f57c00;
+  }
+}
+
+.appova-mb-50 {
+  font-size: 42px;
+  color: #121820;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.appnova-sub-title {
+  
+  font-size: 42px;
+  color: #121820;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.appnova-simple-list li {
+  color: #121820;
+  margin-bottom: 15px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    left: 0;
+    top: 0;
+    margin-right: 15px;
+    border-radius: 50%;
+    background-color: #007DBF;
+  }
+}
+
+
+.appnova-para {
+      font-size: 15px;
+    font-weight: 400;
+    color: rgba(18, 24, 32, .4);
+    line-height: 170%;
+}
