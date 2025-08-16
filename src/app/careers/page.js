@@ -1,3 +1,6 @@
+import Image from "next/image";
+import mapImg from "../../assets/images/map.png";
+
 export default function Career() {
   return (
     <div className="appnova-banner-sm appnova-deep-bg">

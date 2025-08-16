@@ -21,7 +21,7 @@
   -o-object-position: center;
   object-position: center;
   position: absolute;
-  z-index: -1;
+  // z-index: -1;
   top: 0;
   left: 0;
 }
@@ -90,7 +90,7 @@
 
 /// our mission
 .appnova-deep-bg {
-  background-color:#fff;
+  background-color:rgba(18,24,32,.05);
   padding-top: 120px;
   padding-bottom: 80px;
 }
@@ -191,7 +191,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-
+  font-size: 16px;
   position: relative;
 
   &::before {
@@ -212,4 +212,12 @@
     font-weight: 400;
     color: rgba(18, 24, 32, .4);
     line-height: 170%;
+    margin-bottom: 30px;
+}
+
+.appnova-suptitle {
+  
+      font-size: 16px;
+    font-weight: 400;
+    color:#000;
 }
